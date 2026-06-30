@@ -1,0 +1,6 @@
+node_modules
+dist
+
+# Excluded to avoid conflicting changes (quotes and indent)
+src/index.ts
+src/routes/defaultRoute.ts

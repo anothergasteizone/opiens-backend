@@ -1,0 +1,12 @@
+name: "example_workflow"
+steps:
+  - taskType: "analysis"
+    stepNumber: 1
+    dependsOn: [2, 3]
+  - taskType: "notification"
+    stepNumber: 2
+  - taskType: "polygonArea"
+    stepNumber: 3
+  - taskType: "reportGeneration"
+    stepNumber: 4
+    # No dependsOn needed: reportGeneration aggregates the preceding steps.
