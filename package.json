@@ -1,4 +1,8 @@
 {
+  "name": "opiens-backend",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
   "scripts": {
     "start": "ts-node src/index.ts",
     "dev": "nodemon --watch src --ext ts --exec ts-node src/index.ts",
